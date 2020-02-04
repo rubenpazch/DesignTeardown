@@ -13,8 +13,8 @@ header {
   width: 100%;
 }
 
-nav {
-  background-color: rosybrown;  
+/* nav {
+  background-color: rosybrown;
   flex: 2;
 }
 
@@ -39,7 +39,7 @@ header nav ul li {
   background-color: slateblue;
   padding: 0 2em;
   display: flex;
-  flex-flow: row;    
+  flex-flow: row;
 }
 
 .logo {
@@ -54,4 +54,4 @@ header nav ul li {
   width: 150px;
   background-color: teal;
   height: 250px;
-}
+} */
