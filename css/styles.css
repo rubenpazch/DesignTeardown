@@ -22,25 +22,23 @@ header {
   grid-column: 1 / 7;
 }
 
-
-
 .feat {
   border: 1px solid #212121;
 }
 
-.art-1 { 
+.art-1 {
   background-color: chartreuse;
 }
 
-.art-2 { 
+.art-2 {
   background-color: sienna;
 }
 
-.art-3 { 
+.art-3 {
   background-color: slateblue;
 }
 
-.art-4 { 
+.art-4 {
   background-color: slategrey;
 }
 
@@ -114,13 +112,113 @@ header nav ul li {
   border: 1px solid #212121;
 }
 
-.post-1 { grid-column: 1 / 2; grid-row: 1 / 2; }
-.post-2 { grid-column: 2 / 3; grid-row: 1 / 2; }
-.post-3 { grid-column: 3 / 4; grid-row: 1 / 2; }
-.post-4 { grid-column: 4 / 5; grid-row: 1 / 2; }
-.smashing-members { grid-column: 1 / 3; grid-row: 2 / 3; }
-.post-5 { grid-column: 3 / 4; grid-row: 2 / 3; }
-.post-6 { grid-column: 4 / 5; grid-row: 2 / 3; }
-.post-7 { grid-column: 1 / 2; grid-row: 3 / 4; }
-.post-8 { grid-column: 2 / 3; grid-row: 3 / 4; }
-.smashing-tv { grid-column: 3 / 5; grid-row: 3 / 4; }
+.post-1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.post-2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.post-3 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.post-4 {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+.smashing-members {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+}
+
+.post-5 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.post-6 {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+
+.post-7 {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.post-8 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.smashing-tv {
+  grid-column: 3 / 5;
+  grid-row: 3 / 4;
+}
+
+.ethical-design-book {
+  grid-column: 1 / 7;
+  background-color: rgb(10, 103, 190);
+}
+
+.community-links {
+  grid-column: 1 / 7;
+  background-color: rgb(148, 195, 240);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.auth1 {
+  grid-column: 1/ 3;
+  grid-row: 1 / 2;
+  background-color: darkgoldenrod;
+}
+
+.auth2 {
+  grid-column: 1/ 2;
+  grid-row: 2/ 3;
+  background-color: rgb(164, 226, 48);
+}
+
+.auth3 {
+  grid-column: 2/ 3;
+  grid-row: 2/ 3;
+  background-color: rgb(11, 65, 116);
+}
+
+.auth4 {
+  grid-column: 1/ 2;
+  grid-row: 3/ 4;
+  background-color: rgb(150, 66, 45);
+}
+
+.auth5 {
+  grid-column: 2/ 3;
+  grid-row: 3/ 4;
+  background-color: rgb(56, 4, 58);
+}
+
+.auth6 {
+  grid-column: 1/ 2;
+  grid-row: 4 / 5;
+  background-color: rgb(38, 109, 91);
+}
+
+.auth7 {
+  grid-column: 2/ 3;
+  grid-row: 4/ 5;
+  background-color: rgb(80, 105, 66);
+}
+
+.community-links .more-articles {
+  grid-column: 1/ 3;
+  grid-row: 5/ 6;
+  background-color: rgb(18, 37, 7);
+}
