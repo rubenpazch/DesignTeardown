@@ -6,12 +6,20 @@ body {
   padding: 0;
 }
 
+body * {
+  box-sizing: border-box;
+}
+
+main {
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 175px 742px 480px 2808px 1084px 1773px 397px 1904px 653px;
+}
+
 header {
   background-color: red;
-  width: 100%;
-  margin: auto;
-  width: 100%;
+  grid-area: ;
 }
+
 
 /* nav {
   background-color: rosybrown;
