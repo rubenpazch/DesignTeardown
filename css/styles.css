@@ -23,7 +23,7 @@ header {
 }
 
 footer{
-  
+
 }
 
 .feat {
@@ -94,6 +94,14 @@ header nav ul li {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
+}
+
+.footer-list {
+  display: flex;
+}
+
+.item-footer {
+  padding: 10px;
 }
 
 .featured-articles {
