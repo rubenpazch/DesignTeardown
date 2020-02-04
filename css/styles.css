@@ -1,0 +1,11 @@
+body {
+  line-height: 1;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  color: #212121;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: red;
+}
