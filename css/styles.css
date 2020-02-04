@@ -8,4 +8,50 @@ body {
 
 header {
   background-color: red;
+  width: 100%;
+  margin: auto;
+  width: 100%;
+}
+
+nav {
+  background-color: rosybrown;  
+  flex: 2;
+}
+
+header nav ul {
+  background-color: seagreen;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: auto;
+}
+
+header nav ul li {
+  background-color: sienna;
+  list-style: none;
+  width: 14.27%;
+  height: 250px;
+}
+
+.navigation-container {
+  background-color: slateblue;
+  padding: 0 2em;
+  display: flex;
+  flex-flow: row;    
+}
+
+.logo {
+  flex: 1;
+  width: 150px;
+  background-color: springgreen;
+  height: 250px;
+}
+
+.search-bar {
+  float: 1;
+  width: 150px;
+  background-color: teal;
+  height: 250px;
 }
