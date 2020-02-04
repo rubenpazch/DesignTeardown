@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-https://nytimespage.000webhostapp.com/
+#
 
 
 ## Authors
