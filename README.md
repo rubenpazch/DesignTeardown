@@ -16,9 +16,10 @@
 
 ## Authors
 
-👤 Carlos Prieto Barron
+👤 **Pedro Henrique Ferreira Donda**
 
-- Github: [@carlosprietobarron](https://github.com/carlosprietobarron)
+- Github: [@phfdonda](https://github.com/phfdonda)
+- LinkedIn: [phfdonda](https://www.linkedin.com/in/pedro-donda-808621bb/)
 
 👤 **Ruben Paz Chuspe**
 
