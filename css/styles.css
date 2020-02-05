@@ -1,7 +1,17 @@
+@font-face {
+  font-family: new-era;
+  src: url(/new_era_casual/New\ Era\ Casual\ Regular.ttf);
+}
+
+body {
+  background-color: black;
+}
 
 /* TAGS */
 main {
   display: grid;
+  width: 100%;
+  height: 100%;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 5px;
   grid-template-areas:
@@ -21,14 +31,16 @@ main {
     "dv26  dv26   dv26  dv27  dv27  dv27  dv28  dv28  dv28  dv29  dv29  dv29"
     "dv30  dv30   dv30  dv30  dv30  dv30  dv30  dv30  dv30  dv30  dv30  dv30"
     " .    dv31   dv31  dv31  dv31  dv31  dv31  dv31  dv31  dv31  dv31    . "
-    "dv32  dv32   dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32"
-;
+    "dv32  dv32   dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32";
 }
 
 /* CLASSES */
 
 .container {
-  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(68, 68, 68);
 }
 
 .cont1 {
@@ -232,4 +244,80 @@ main {
   margin: -11% -92% 0 0;
   color: #fff;
   text-align: center;
+}
+
+.nav-bar {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 20px 0 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: new-era, sans-serif;
+}
+
+.logo {
+  display: flex;
+  width: 200px;
+  height: 83px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(172, 172, 172);
+  font-family: new-era, sans-serif;
+}
+
+.nav-link {
+  width: 150px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.link-img {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 50px;
+  background-color: rgb(224, 224, 224);
+  font-family: new-era, sans-serif;
+}
+
+.link-title {
+  color: rgb(155, 153, 153);
+  font-size: 2rem;
+  font-family: new-era, sans-serif;
+}
+
+.nav-link p {
+  color: rgb(37, 37, 37);
+  padding: 3px;
+  font-family: new-era, sans-serif;
+}
+
+.topics {
+  width: 136px;
+  height: 57px;
+  border: 10px solid rgb(172, 171, 171);
+}
+
+.big-title {
+  font-size: 2.5rem;
+  color: rgb(233, 233, 233);
+  font-family: new-era, sans-serif;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 200px 40px 0 100px;
+}
+
+.big-title h2 {
+  float: left;
+  left: 50px;
+  top: 0;
+  color: black;
+  background-color: white;
 }
