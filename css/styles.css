@@ -1,3 +1,8 @@
+@font-face {
+  font-family: new-era;
+  src: url(/new_era_casual/New\ Era\ Casual\ Bold.ttf);
+}
+
 
 /* TAGS */
 main {
@@ -176,3 +181,39 @@ main {
   grid-area: dv32;
 }
 
+.nav-bar {
+  background-color: tomato;
+  width: 100%;
+  height: 100%;
+  padding: 0 50px 0 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-link {
+  width: 259px;
+  height: 147px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.link-img {
+  margin-bottom: 20px;
+  display: block;
+  width: 49px;
+  height: 50px;
+  background-color: rgb(224, 224, 224);
+}
+
+.link-title {
+  display: block;
+}
+
+.nav-link p {
+  color: black;
+  font-family: new-era, sans-serif;
+  padding: 3px;
+}
