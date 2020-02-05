@@ -13,8 +13,13 @@ main {
     " .    dv15   dv15  dv15  dv15  dv15  dv15  dv15  dv15  dv15  dv15    . "
     "dv16  dv16   dv16  dv16  dv16  dv16  dv16  dv16  dv16  dv16  dv16  dv16"
     " .    dv17   dv17  dv17  dv17  dv17  dv17  dv17  dv17  dv17  dv17    . "
-    " .    dv18   dv18  dv18  dv18   .      .   dv19  dv19  dv19  dv19    . "
-    " .    dv20   dv20  dv20  dv20  dv20  dv20  dv20  dv20  dv20  dv20    . "
+    " .    dv18   dv18  dv18  dv18  dv18  dv19  dv19  dv19  dv19  dv19    . "
+    " .    dv20   dv20  dv20  dv20  dv20  dv21  dv21  dv21  dv21  dv21    . "
+    " .    dv22   dv22  dv22  dv22  dv22  dv23  dv23  dv23  dv23  dv23    . "
+    " .    dv24   dv24  dv24  dv24  dv24  dv24  dv24  dv24  dv24  dv24    . "
+    "dv25  dv25   dv25  dv25  dv25  dv25  dv25  dv25  dv25  dv25  dv25  dv25"
+    "dv26  dv26   dv26  dv27  dv27  dv27  dv28  dv28  dv28  dv29  dv29  dv29"
+    "dv30  dv30   dv30  dv30  dv30  dv30  dv30  dv30  dv30  dv30  dv30  dv30"
 ;
 }
 
@@ -110,6 +115,51 @@ main {
 }
 
 .cont20 {
+  height: 387px;
+  grid-area: dv20;
+}
+
+.cont21 {
+  grid-area: dv21;
+}
+
+.cont22 {
+  height: 387px;
+  grid-area: dv22;
+}
+
+.cont23 {
+  grid-area: dv23;
+}
+
+.cont24 {
   height: 185px;
-  grid-area: dv15;
+  grid-area: dv24;
+}
+
+.cont25 {
+  height: 407px;
+  grid-area: dv25;
+}
+
+.cont26 {
+  height: 800px;
+  grid-area: dv26;
+}
+
+.cont27 {
+  grid-area: dv27;
+}
+
+.cont28 {
+  grid-area: dv28;
+}
+
+.cont29 {
+  grid-area: dv29;
+}
+
+.cont30 {
+  height: 1142px;
+  grid-area: dv30;
 }
