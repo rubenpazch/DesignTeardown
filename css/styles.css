@@ -3,10 +3,15 @@
   src: url(/new_era_casual/New\ Era\ Casual\ Bold.ttf);
 }
 
+body {
+  background-color: black;
+}
 
 /* TAGS */
 main {
   display: grid;
+  width: 100%;
+  height: 100%;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 5px;
   grid-template-areas:
@@ -26,14 +31,13 @@ main {
     "dv26  dv26   dv26  dv27  dv27  dv27  dv28  dv28  dv28  dv29  dv29  dv29"
     "dv30  dv30   dv30  dv30  dv30  dv30  dv30  dv30  dv30  dv30  dv30  dv30"
     " .    dv31   dv31  dv31  dv31  dv31  dv31  dv31  dv31  dv31  dv31    . "
-    "dv32  dv32   dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32"
-;
+    "dv32  dv32   dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32";
 }
 
 /* CLASSES */
 
 .container {
-  background: grey;
+  background: rgb(68, 68, 68);
 }
 
 .cont1 {
@@ -182,38 +186,57 @@ main {
 }
 
 .nav-bar {
-  background-color: tomato;
   width: 100%;
+  margin: 0 auto;
   height: 100%;
-  padding: 0 50px 0 50px;
+  padding: 0 20px 0 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+.logo {
+  display: flex;
+  width: 228px;
+  height: 83px;
+  align-items: center;
+  justify-content: center;
+  font-family: new-era, sans-serif;
+  background-color: rgb(172, 172, 172);
+}
+
 .nav-link {
-  width: 259px;
-  height: 147px;
+  width: 150px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: new-era, sans-serif;
 }
 
 .link-img {
   margin-bottom: 20px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 49px;
   height: 50px;
   background-color: rgb(224, 224, 224);
 }
 
 .link-title {
-  display: block;
+  color: rgb(155, 153, 153);
+  font-size: 2rem;
 }
 
 .nav-link p {
-  color: black;
-  font-family: new-era, sans-serif;
+  color: rgb(37, 37, 37);
   padding: 3px;
+}
+
+.topics {
+  width: 136px;
+  height: 57px;
+  border: 10px solid rgb(172, 171, 171);
 }
