@@ -174,13 +174,19 @@ main {
 }
 
 .cont30 {
-  height: 1142px;
+  height: 795px;
   grid-area: dv30;
+  padding: 50px 0 50px 0;
 }
 
 .cont31 {
-  height: 185px;
+  height: 315px;
   grid-area: dv31;
+}
+
+.cont31 h1 {
+  padding: 50px 0 0 0;
+  color: white;
 }
 
 .cont32 {
@@ -320,4 +326,60 @@ main {
   top: 0;
   color: black;
   background-color: white;
+}
+
+.smashing-newsletter {
+  background-color: #696969;
+  width: 100%;
+  height: 100%;
+  margin: 0 100px 0 100px;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.smashing-newsletter h1 {
+  font-size: 35px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.smashing-newsletter p {
+  padding-bottom: 40px;
+  line-height: 25px;
+  text-align: center;
+  color:#fff;
+}
+
+.guy-with-instrument {
+  background-color:#c8c2ba;
+  height: 350px;
+  width: 350px;
+  margin-bottom: 40px;
+}
+
+.subscribe-container {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.subscribe-container input {
+  height: 50px;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  width: 230px;
+}
+
+.subscribe-container button {
+  height: 50px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  width: 150px;
+  margin-top: 3px;
+  margin-left: 0;
 }
