@@ -20,6 +20,8 @@ main {
     "dv25  dv25   dv25  dv25  dv25  dv25  dv25  dv25  dv25  dv25  dv25  dv25"
     "dv26  dv26   dv26  dv27  dv27  dv27  dv28  dv28  dv28  dv29  dv29  dv29"
     "dv30  dv30   dv30  dv30  dv30  dv30  dv30  dv30  dv30  dv30  dv30  dv30"
+    " .    dv31   dv31  dv31  dv31  dv31  dv31  dv31  dv31  dv31  dv31    . "
+    "dv32  dv32   dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32"
 ;
 }
 
@@ -163,3 +165,14 @@ main {
   height: 1142px;
   grid-area: dv30;
 }
+
+.cont31 {
+  height: 185px;
+  grid-area: dv31;
+}
+
+.cont32 {
+  height: 690px;
+  grid-area: dv32;
+}
+
