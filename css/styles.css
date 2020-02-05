@@ -1,6 +1,6 @@
 @font-face {
   font-family: new-era;
-  src: url(/new_era_casual/New\ Era\ Casual\ Bold.ttf);
+  src: url(/new_era_casual/New\Era\Casual\Bold.ttf);
 }
 
 body {
@@ -37,7 +37,11 @@ main {
 /* CLASSES */
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: rgb(68, 68, 68);
+  font-family: new-era, sans-serif;
 }
 
 .cont1 {
@@ -201,7 +205,6 @@ main {
   height: 83px;
   align-items: center;
   justify-content: center;
-  font-family: new-era, sans-serif;
   background-color: rgb(172, 172, 172);
 }
 
@@ -212,7 +215,6 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-family: new-era, sans-serif;
 }
 
 .link-img {
@@ -239,4 +241,9 @@ main {
   width: 136px;
   height: 57px;
   border: 10px solid rgb(172, 171, 171);
+}
+
+.big-title {
+  font-size: 3rem;
+  color: rgb(233, 233, 233);
 }
