@@ -1,6 +1,6 @@
 @font-face {
   font-family: new-era;
-  src: url(/new_era_casual/New\Era\Casual\Bold.ttf);
+  src: url(/new_era_casual/New\ Era\ Casual\ Regular.ttf);
 }
 
 body {
@@ -41,7 +41,6 @@ main {
   justify-content: center;
   align-items: center;
   background: rgb(68, 68, 68);
-  font-family: new-era, sans-serif;
 }
 
 .cont1 {
@@ -197,15 +196,17 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-family: new-era, sans-serif;
 }
 
 .logo {
   display: flex;
-  width: 228px;
+  width: 200px;
   height: 83px;
   align-items: center;
   justify-content: center;
   background-color: rgb(172, 172, 172);
+  font-family: new-era, sans-serif;
 }
 
 .nav-link {
@@ -225,16 +226,19 @@ main {
   width: 49px;
   height: 50px;
   background-color: rgb(224, 224, 224);
+  font-family: new-era, sans-serif;
 }
 
 .link-title {
   color: rgb(155, 153, 153);
   font-size: 2rem;
+  font-family: new-era, sans-serif;
 }
 
 .nav-link p {
   color: rgb(37, 37, 37);
   padding: 3px;
+  font-family: new-era, sans-serif;
 }
 
 .topics {
@@ -244,6 +248,18 @@ main {
 }
 
 .big-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: rgb(233, 233, 233);
+  font-family: new-era, sans-serif;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 200px 40px 0 100px;
+}
+
+.big-title h2 {
+  float: left;
+  left: 50px;
+  top: 0;
+  color: black;
+  background-color: white;
 }
