@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(43, 43, 43);
+  background-color: rgb(32, 32, 32);
 }
 
 /* TAGS */
@@ -385,27 +385,28 @@ main {
 }
 
 .white-t {
-  position: relative;
-  top: -320px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .t1,
 .t2 {
   background-color: white;
   padding: 6px;
+  position: relative;
+  top: -50px;
 }
 
 .t1 {
-  width: 400px;
+  width: 330px;
 }
 
 .t2 {
-  width: 300px;
+  width: 220px;
 }
 
 .smiling-cat {
