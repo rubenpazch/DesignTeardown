@@ -1,6 +1,6 @@
 @font-face {
   font-family: new-era;
-  src: url(/new_era_casual/new-era-casual-regular.ttf);
+  src: url('../new_era_casual/new-era-casual-regular.ttf');
 }
 
 body {
