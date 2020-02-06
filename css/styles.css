@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(32, 32, 32);
 }
 
 /* TAGS */
@@ -13,7 +13,7 @@ main {
   width: 100%;
   height: 100%;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 2px;
+  grid-gap: 5px;
   grid-template-areas:
     "hdr   hdr    hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr"
     "dv1   dv1    dv1   dv1   dv2   dv2   dv2   dv2   dv3   dv3   dv3   dv3"
@@ -38,20 +38,35 @@ main {
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
   background: rgb(68, 68, 68);
-  padding: 30px;
+  padding: 0 30px;
+  font-size: 1.8rem;
+  font-family: new-era, sans-serif;
+  color: rgb(153, 153, 153);
 }
 
 .cont1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  background: rgb(68, 68, 68);
+  padding: 0 30px;
+  font-size: 1.8rem;
+  font-family: new-era, sans-serif;
+  color: rgb(153, 153, 153);
   grid-area: hdr;
   height: 214px;
 }
 
 .cont2 {
   grid-area: dv1;
-  height: 878px;
+  height: 650px;
 }
 
 .cont3 {
@@ -63,7 +78,7 @@ main {
 }
 
 .cont5 {
-  height: 538px;
+  height: 510px;
   grid-area: dv5;
 }
 
@@ -80,7 +95,7 @@ main {
 }
 
 .cont9 {
-  height: 689px;
+  height: 620px;
   grid-area: dv9;
 }
 
@@ -111,7 +126,7 @@ main {
 }
 
 .cont16 {
-  height: 1098px;
+  height: 700px;
   grid-area: dv16;
 }
 
@@ -165,7 +180,7 @@ main {
   padding: 45px 0 0 50px;
 }
 
-.cont26 {  
+.cont26 {
   grid-area: dv26;
   display: flex;
   flex-flow: column;
@@ -285,6 +300,7 @@ main {
   justify-content: space-around;
   align-items: center;
   font-family: new-era, sans-serif;
+  font-size: 1.5rem;
 }
 
 .logo {
@@ -299,10 +315,10 @@ main {
 
 .nav-link {
   width: 150px;
-  height: 120px;
+  height: 150px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: column;
 }
 
@@ -311,8 +327,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 49px;
-  height: 50px;
+  width: 60px;
+  height: 70px;
   background-color: rgb(224, 224, 224);
   font-family: new-era, sans-serif;
 }
@@ -325,7 +341,8 @@ main {
 
 .nav-link p {
   color: rgb(37, 37, 37);
-  padding: 3px;
+  padding: 1px;
+  margin-top: 0;
   font-family: new-era, sans-serif;
 }
 
@@ -335,13 +352,27 @@ main {
   border: 10px solid rgb(172, 171, 171);
 }
 
-.big-title {
-  font-size: 2.5rem;
+.big-title,
+.cat-title {
+  font-size: 2rem;
   color: rgb(233, 233, 233);
   font-family: new-era, sans-serif;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 200px 40px 0 100px;
+  padding: 200px 100px 0 100px;
+}
+
+.cat-title {
+  padding: 0;
+  font-size: 3rem;
+}
+
+.container p {
+  color: rgb(44, 42, 42);
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 30px;
 }
 
 .big-title h2 {
@@ -349,8 +380,75 @@ main {
   text-align: center;
 }
 
-.t1, .t2 {
+.small-title {
+  margin-bottom: 30px;
+}
+
+.white-t {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  position: relative;
+  top: -300px;
+  left: -10px;
+}
+
+.t1,
+.t2 {
   background-color: white;
+  padding: 6px;
+  position: relative;
+  top: -50px;
+}
+
+.t1 {
+  width: 330px;
+}
+
+.t2 {
+  width: 220px;
+}
+
+.smiling-cat {
+  background-color: rgb(241, 241, 241);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: 5rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.press-me {
+  width: auto;
+  height: 50px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 1.4rem;
+  margin-top: 30px;
+}
+
+.ethical-book {
+  margin-top: 70px;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(209, 209, 209);
+  font-size: 5rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn3 {
+  background-color: rgb(170, 170, 170);
 }
 
 .smashing-newsletter {
@@ -375,11 +473,11 @@ main {
   padding-bottom: 40px;
   line-height: 25px;
   text-align: center;
-  color:#fff;
+  color: #fff;
 }
 
 .guy-with-instrument {
-  background-color:#c8c2ba;
+  background-color: #c8c2ba;
   height: 350px;
   width: 350px;
   margin-bottom: 40px;
