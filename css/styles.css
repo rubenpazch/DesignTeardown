@@ -385,7 +385,6 @@ main {
 }
 
 .white-t {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -448,7 +447,6 @@ main {
 .btn3 {
   background-color: rgb(170, 170, 170);
 }
-
 
 .white-t {
   position: relative;
