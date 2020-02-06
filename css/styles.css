@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(49, 49, 49);
 }
 
 /* TAGS */
@@ -13,7 +13,7 @@ main {
   width: 100%;
   height: 100%;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 2px;
+  grid-gap: 5px;
   grid-template-areas:
     "hdr   hdr    hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr"
     "dv1   dv1    dv1   dv1   dv2   dv2   dv2   dv2   dv3   dv3   dv3   dv3"
@@ -39,7 +39,7 @@ main {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   text-align: center;
   align-items: center;
   background: rgb(68, 68, 68);
@@ -50,6 +50,16 @@ main {
 }
 
 .cont1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  background: rgb(68, 68, 68);
+  padding: 0 30px;
+  font-size: 1.8rem;
+  font-family: new-era, sans-serif;
+  color: rgb(153, 153, 153);
   grid-area: hdr;
   height: 214px;
 }
@@ -116,7 +126,7 @@ main {
 }
 
 .cont16 {
-  height: 1098px;
+  height: 700px;
   grid-area: dv16;
 }
 
@@ -339,6 +349,7 @@ main {
   font-size: 1.2rem;
   line-height: 1.5rem;
   font-family: 'Times New Roman', Times, serif;
+  margin-top: 30px;
 }
 
 .big-title h2 {
@@ -385,7 +396,7 @@ main {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: -100px;
+  margin-bottom: 20px;
   color: black;
 }
 
@@ -395,6 +406,23 @@ main {
   border-radius: 10px;
   background-color: white;
   font-size: 1.4rem;
+  margin-top: 30px;
+}
+
+.ethical-book {
+  margin-top: 70px;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(209, 209, 209);
+  font-size: 5rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn3 {
+  background-color: rgb(170, 170, 170);
 }
 
 .smashing-newsletter {
