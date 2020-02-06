@@ -38,12 +38,14 @@ main {
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
   background: rgb(68, 68, 68);
-  padding: 70px 30px 0 30px;
-  font-size: 2rem;
-  font-family: new-era,sans-serif;
+  padding: 0 30px;
+  font-size: 1.8rem;
+  font-family: new-era, sans-serif;
+  color: rgb(153, 153, 153);
 
 }
 
@@ -54,7 +56,7 @@ main {
 
 .cont2 {
   grid-area: dv1;
-  height: 878px;
+  height: 700px;
 }
 
 .cont3 {
@@ -325,17 +327,37 @@ main {
   padding: 200px 40px 0 100px;
 }
 
+.container p {
+  margin-top: 30px;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .big-title h2 {
   color: black;
   text-align: center;
 }
 
+.white-t {
+  position: relative;
+  top: -300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .t1,
 .t2 {
   background-color: white;
+  padding: 6px;
 }
 
-
+.t2 {
+  width: 220px;
+}
 
 .smashing-newsletter {
   background-color: #696969;
