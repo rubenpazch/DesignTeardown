@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(27,27,27);
 }
 
 /* TAGS */
@@ -13,7 +13,7 @@ main {
   width: 100%;
   height: 100%;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 5px;
+  grid-gap: 2px;
   grid-template-areas:
     "hdr   hdr    hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr"
     "dv1   dv1    dv1   dv1   dv2   dv2   dv2   dv2   dv3   dv3   dv3   dv3"
@@ -39,8 +39,12 @@ main {
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background: rgb(68, 68, 68);
+  padding: 70px 30px 0 30px;
+  font-size: 2rem;
+  font-family: new-era,sans-serif;
+
 }
 
 .cont1 {
@@ -261,6 +265,7 @@ main {
   justify-content: space-around;
   align-items: center;
   font-family: new-era, sans-serif;
+  font-size: 1.5rem;
 }
 
 .logo {
@@ -325,22 +330,12 @@ main {
   text-align: center;
 }
 
-.t1, .t2 {
+.t1,
+.t2 {
   background-color: white;
 }
-<<<<<<< HEAD
 
-.t2 {
-  width: 220px;
-}
 
-.white-t {
-  position: relative;
-  top: -300px;
-  left: -10px;
-}
-||||||| merged common ancestors
-=======
 
 .smashing-newsletter {
   background-color: #696969;
@@ -397,4 +392,3 @@ main {
   margin-top: 3px;
   margin-left: 0;
 }
->>>>>>> 0b1aa45f6271d93fcf280cd132a56830533701a4
