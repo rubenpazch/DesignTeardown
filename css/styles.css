@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(27, 27, 27);
 }
 
 /* TAGS */
@@ -13,7 +13,7 @@ main {
   width: 100%;
   height: 100%;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 5px;
+  grid-gap: 2px;
   grid-template-areas:
     "hdr   hdr    hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr"
     "dv1   dv1    dv1   dv1   dv2   dv2   dv2   dv2   dv3   dv3   dv3   dv3"
@@ -41,6 +41,7 @@ main {
   justify-content: center;
   align-items: center;
   background: rgb(68, 68, 68);
+  padding: 30px;
 }
 
 .cont1 {
