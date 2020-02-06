@@ -295,6 +295,10 @@ main {
   text-align: center;
 }
 
+.cont8 h3 {
+  display: none;
+}
+
 .nav-bar {
   width: 100%;
   margin: 0 auto;
