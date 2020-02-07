@@ -499,14 +499,15 @@ a {
   padding-bottom: 40px;
   line-height: 25px;
   text-align: center;
-  color: #fff;
+  color: rgb(78, 78, 78);
 }
 
 .guy-with-instrument {
-  background-color: #c8c2ba;
-  height: 350px;
-  width: 350px;
+  background-color: #dbdbdb;
+  height: 300px;
+  width: 300px;
   margin-bottom: 40px;
+  border-radius: 50%;
 }
 
 .subscribe-container {
