@@ -7,7 +7,6 @@ body {
   background-color: rgb(32, 32, 32);
 }
 
-/* TAGS */
 main {
   display: grid;
   width: 100%;
@@ -39,8 +38,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
-/* CLASSES */
 
 .container {
   display: flex;
@@ -644,7 +641,7 @@ a {
   padding: 0 0 0 20px;
 }
 
-.content-author h1 {
+.content-author h2 {
   font-size: 25px;
   padding: 0 60px 0 0;
 }
@@ -666,4 +663,3 @@ a {
   align-items: flex-start;
   padding: 15px 0 0 0;
 }
-
