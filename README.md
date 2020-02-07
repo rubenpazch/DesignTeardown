@@ -11,14 +11,15 @@
 
 ## Live Demo
 
-https://nytimespage.000webhostapp.com/
+[Preview](https://rawcdn.githack.com/rubenpazch/DesignTeardown/6cb429252b57816aacf669cb11fbc7a7c4451ea8/index.html)
 
 
 ## Authors
 
-👤 Carlos Prieto Barron
+👤 **Pedro Henrique Ferreira Donda**
 
-- Github: [@carlosprietobarron](https://github.com/carlosprietobarron)
+- Github: [@phfdonda](https://github.com/phfdonda)
+- LinkedIn: [phfdonda](https://www.linkedin.com/in/pedro-donda-808621bb/)
 
 👤 **Ruben Paz Chuspe**
 
