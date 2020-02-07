@@ -16,7 +16,8 @@ main {
   grid-gap: 5px;
   grid-template-areas:
     "hdr   hdr    hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr   hdr"
-    "dv1   dv1    dv1   dv1   dv2   dv2   dv2   dv2   dv3   dv3   dv3   dv3"
+    "dv100 dv100  dv100 dv100 dv100 dv100 dv1   dv1   dv1   dv1   dv1   dv1"
+    "dv2   dv2    dv2   dv2   dv2   dv2   dv3   dv3   dv3   dv3   dv3   dv3"
     "dv5   dv5    dv5   dv6   dv6   dv6   dv7   dv7   dv7   dv8   dv8   dv8"
     "dv9   dv9    dv9   dv9   dv9   dv9   dv10  dv10  dv10  dv11  dv11  dv11"
     "dv12  dv12   dv12  dv13  dv13  dv13  dv14  dv14  dv14  dv14  dv14  dv14"
@@ -81,6 +82,11 @@ a {
 
 .cont4 {
   grid-area: dv3;
+  height: 650px;
+}
+
+.cont100 {
+  grid-area: dv100;
   height: 650px;
 }
 
@@ -409,7 +415,7 @@ a {
   align-items: center;
   font-size: 2.5rem;
   position: absolute;
-  top: 250px;
+  top: 290px;
   left: calc(50% - 165px);
 }
 
