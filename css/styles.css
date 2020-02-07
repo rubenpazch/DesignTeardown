@@ -238,7 +238,7 @@ a {
   grid-area: dv31;
 }
 
-.cont31 h1 {
+.cont31 h2 {
   padding: 50px 0 0 0;
   color: white;
 }
@@ -495,7 +495,7 @@ a {
   border-radius: 15px;
 }
 
-.smashing-newsletter h1 {
+.smashing-newsletter h2 {
   font-size: 35px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -540,7 +540,7 @@ a {
   margin-left: 0;
 }
 
-.content-posts h1 {
+.content-posts h2 {
   font-size: 30px;
   padding: 45px 25px 0 25px;
   font-weight: 600;
@@ -570,7 +570,7 @@ a {
   padding: 15px 0 15px 0;
 }
 
-.cont25 h1 {
+.cont25 h2 {
   font-size: 50px;
   padding: 25px 25px 10px 0;
   font-weight: 600;
@@ -585,7 +585,7 @@ a {
   line-height: 25px;
 }
 
-.cont24 h1 {
+.cont24 h2 {
   padding: 50px 0 0 0;
   color: white;
 }
