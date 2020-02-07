@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Preview](https://rawcdn.githack.com/rubenpazch/DesignTeardown/1b24b98f86e4f0049100c06906bb7e137b0fde9d/index.html)
+[Preview](https://rawcdn.githack.com/rubenpazch/DesignTeardown/6cb429252b57816aacf669cb11fbc7a7c4451ea8/index.html)
 
 
 ## Authors
