@@ -34,6 +34,11 @@ main {
     "dv32  dv32   dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32  dv32";
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* CLASSES */
 
 .container {
@@ -654,3 +659,4 @@ main {
   align-items: flex-start;
   padding: 15px 0 0 0;
 }
+
